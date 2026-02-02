@@ -53,8 +53,11 @@
 
 html, body {
     height: 100%;
-    scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
+}
+
+.section:not(.header) {
+    scroll-padding-top: 5.5rem;
 }
 
 body {
