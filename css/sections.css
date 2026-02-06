@@ -301,6 +301,7 @@
 .section.projects .cards .card .view-button {
     display: flex;
     align-items: center;
+    width: fit-content;
     gap: 0.75rem;
     font: var(--font-subheading);
     letter-spacing: var(--ls-subheading);
@@ -355,6 +356,7 @@
 .section.contact .left .contact-info a {
     display: flex;
     align-items: center;
+    width: fit-content;
     gap: 0.75rem;
 }
 
